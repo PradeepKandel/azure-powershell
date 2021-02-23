@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 1.5.0
 * Added Support for Python3 Runbook Type
 
 ## Version 1.4.3
