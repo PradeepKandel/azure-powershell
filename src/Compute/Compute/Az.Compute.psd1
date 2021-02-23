@@ -105,11 +105,7 @@ CmdletsToExport = 'Remove-AzAvailabilitySet', 'Get-AzAvailabilitySet',
                'Restart-AzVM', 'New-AzVM', 'Start-AzVM', 'Stop-AzVM', 'Remove-AzVM', 
                'New-AzVMConfig', 'Set-AzVMOperatingSystem', 'Add-AzVMDataDisk', 
                'Add-AzVMNetworkInterface', 'Add-AzVhd', 'Save-AzVhd', 
-               'Add-AzContainerServiceAgentPoolProfile', 
-               'New-AzContainerServiceConfig', 
-               'Remove-AzContainerServiceAgentPoolProfile', 
-               'New-AzContainerService', 'Update-AzContainerService', 
-               'Remove-AzContainerService', 'Get-AzContainerService', 'Get-AzVmssVM', 
+               'Get-AzVmssVM', 
                'Set-AzVmssVM', 'Add-AzVmssAdditionalUnattendContent', 
                'Add-AzVmssExtension', 'Add-AzVmssDataDisk', 
                'Add-AzVmssNetworkInterfaceConfiguration', 'Add-AzVmssSecret', 
@@ -210,7 +206,6 @@ PrivateData = @{
 
         # ReleaseNotes of this module
         ReleaseNotes = '* [Breaking Change] Removed all ''ContainerService'' cmdlets. The Container Service API was deprecated in January 2020. 
-    - ''Add-AzureRmContainerServiceAgentPoolProfileCommand''
     - ''Get-AzContainerService''
     - ''New-AzContainerService''
     - ''New-AzContainerServiceConfig''
